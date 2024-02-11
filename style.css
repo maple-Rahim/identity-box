@@ -1,0 +1,28 @@
+body{
+    background-color: aqua;
+}
+.ID{
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center; 
+    height: 240px;
+    width: 240px;
+    background-image: radial-gradient(rgb(64, 15, 198), rgb(156, 141, 44), green);
+}
+.Linear{
+    padding: 40px;
+    text-align: center; 
+    height: 240px;
+    width: 240px;
+    background-image: linear-gradient(to right, rgb(61, 22, 160),rgb(196, 79, 12),rgb(16, 192, 219))
+}
+.flex-container{
+    display: flex;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
